@@ -20,9 +20,13 @@ function fibonacciCalculator(n, obj) {
     return obj[n];
   }
 
-  return obj[n]; //returns the memoized value
+  return obj[n]; //returns the memoized value if it already exists
 }
+
+//this needs to be global as it has to be refereed everywhere and its like a global data store for each function call
 var obj = { 1: 1, 2: 1 };
+
+
 console.log(
   chalk.magenta(
     `4^th fibonacci series >  ${chalk.green.bold.italic(
