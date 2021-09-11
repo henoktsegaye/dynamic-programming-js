@@ -1,0 +1,23 @@
+{
+  "name": "dynamic-programming",
+  "version": "1.0.0",
+  "description": "dynamic programming problems and solutions in javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henoktsegaye/dynamic-programming-js.git"
+  },
+  "keywords": [
+    "dynamic-programming",
+    "algorithm-analysis"
+  ],
+  "author": "Henok Tsegaye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henoktsegaye/dynamic-programming-js/issues"
+  },
+  "homepage": "https://github.com/henoktsegaye/dynamic-programming-js#readme"
+}
