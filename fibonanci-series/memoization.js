@@ -2,7 +2,7 @@ const chalk = require("chalk");
 
 /**
  * a naive approach for making a fibonacci call
- * time-complexity - 0(2)^n
+ * time-complexity - 0(n)
  * space-complexity - 0(n)
  * @param {number} n thenth fibonacci series
  * @returns calculated fibonacci series
