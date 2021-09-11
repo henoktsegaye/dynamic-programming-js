@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/henoktsegaye/dynamic-programming-js/issues"
   },
-  "homepage": "https://github.com/henoktsegaye/dynamic-programming-js#readme"
+  "homepage": "https://github.com/henoktsegaye/dynamic-programming-js#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
