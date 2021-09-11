@@ -7,6 +7,6 @@ this is a node js repository that contains dynamic programming problems solved u
 - fibonacci series
     - naive
     - memoization
-    - top down memoiztion
+    - bottom-up memoization
 
 
