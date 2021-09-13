@@ -49,6 +49,13 @@ function findKnapSack(values, capacity) {
   return maxValue;
 }
 
+
+function knapsackImproved (values, capacity) {
+    const { weights, prices} = values;
+
+}
+
+
 console.log(
   findKnapSack({ weights: [ 2,3,4,5 ], prices: [1,2,5,6 ] }, 14)
 );
