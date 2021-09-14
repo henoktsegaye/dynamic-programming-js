@@ -1,20 +1,24 @@
+
 var overall = 0;
-var results = {};
-function takeStep(noStep = 0, overallSteop = 4,arr) {
-  if (noStep === overallSteop) return 1;
-  if(noStep > overallSteop) return 0;
-  if (arr[noStep]) return arr[noStep];
-  arr[noStep] = 0;
+
+/**
+ * 
+ * know that this problem uses sideeffect for storing values. 
+ */
+
+function takeStep(noStep = 0, overallSteop = 4, ) {
+
+  if (noStep === overallSteop) overall++;
   if (noStep < overallSteop) {
-    if ((noStep + 1 <= overallSteop, overallSteop)) {
-      arr[noStep]+= takeStep(noStep + 1, overallSteop, arr);
+    if (noStep + 1 <= overallSteop,overallSteop) {
+      takeStep(noStep + 1,overallSteop);
     }
 
     if (noStep + 2 <= overallSteop) {
-      arr[noStep]+= takeStep(noStep + 2, overallSteop, arr);
+      takeStep(noStep + 2,overallSteop);
     }
   }
-  return arr[noStep];
+
 }
-var result = takeStep(0, 5, {});
-console.log("step to take", result);
+takeStep(0,3)
+console.log('step to take', overall);
